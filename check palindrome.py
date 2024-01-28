@@ -3,3 +3,8 @@
 # Given
 given = ['121', '125']
 
+for x in given:
+
+    reverse = x[::-1]
+
+    
