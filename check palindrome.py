@@ -3,8 +3,15 @@
 # Given
 given = ['121', '125']
 
-for x in given:
+for i in given:
 
-    reverse = x[::-1]
+    reverse = i[::-1]
 
-    
+    if( i == reverse ):
+        print('The original number is ', i)
+        print('The given number is a palindrome')
+        print('\n')
+
+    else:
+        print('The original number is ', i)
+        print('The given number is not a palindrome')
